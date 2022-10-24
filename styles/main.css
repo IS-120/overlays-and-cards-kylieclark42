@@ -83,7 +83,7 @@ p {
   box-sizing: border-box;
 }
 
-a.button {
+.button {
   color: var(--white);
   font-size: 14px;
   font-weight: bold;
@@ -94,7 +94,7 @@ a.button {
   display: inline-block;
 }
 
-a.button[href]:hover {
+.button[href]:hover {
   background-color: var(--red);
   cursor: pointer;
 }
