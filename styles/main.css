@@ -94,7 +94,7 @@ p {
   display: inline-block;
 }
 
-.button[href]:hover {
+.button:hover {
   background-color: var(--red);
   cursor: pointer;
 }
