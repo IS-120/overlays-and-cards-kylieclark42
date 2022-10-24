@@ -152,6 +152,7 @@ a.button[href]:hover {
   justify-content: center;
   align-items: stretch;
   gap: 1rem;
+  height: 275px
 }
 
 .card {
