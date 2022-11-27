@@ -58,6 +58,10 @@ article {
   margin-bottom: 4rem;
 }
 
+section.cards {
+  height: fit-content;
+}
+
 h1,
 h2,
 h3 {
@@ -161,7 +165,7 @@ picture img {
   text-align: center;
   border: 1px solid #333;
   background-color: #333;
-  height: fit-content;
+ display:block;
 }
 
 .card:hover {
@@ -176,6 +180,8 @@ picture img {
   transition: transform 300ms;
   line-height: 1;
 }
+
+
 
 /*.card:hover p {
   transform: scale(1);
