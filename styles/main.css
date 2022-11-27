@@ -58,10 +58,6 @@ article {
   margin-bottom: 4rem;
 }
 
-section.cards {
-  height: fit-content;
-}
-
 h1,
 h2,
 h3 {
@@ -181,7 +177,14 @@ picture img {
   line-height: 1;
 }
 
+section.cards {
+  height: fit-content;
+  margin: 0 1rem 6rem;
+}
 
+.special {
+margin: 0 1rem 6rem;
+}
 
 /*.card:hover p {
   transform: scale(1);
