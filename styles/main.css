@@ -161,6 +161,7 @@ picture img {
   text-align: center;
   border: 1px solid #333;
   background-color: #333;
+  height: fit-content;
 }
 
 .card:hover {
