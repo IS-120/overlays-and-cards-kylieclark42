@@ -186,10 +186,10 @@ section.cards {
 margin: 0 1rem 6rem;
 }
 
-/*.card:hover p {
+.card:hover p {
   transform: scale(1);
 }
-*/
+
 
 .text-content .button {
   margin-top: 2rem;
