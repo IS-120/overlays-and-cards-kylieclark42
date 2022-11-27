@@ -54,13 +54,16 @@ a[href]:hover {
   color: var(--wool);
 }
 
+article {
+  margin-bottom: 4rem;
+}
+
 h1,
 h2,
 h3 {
   font-family: "Lora", serif;
   line-height: 1.1;
   color: var(--header);
-  padding-top: 50px;
 }
 
 img {
@@ -73,10 +76,6 @@ img {
 picture img {
   max-width: none;
   height: 100%;
-}
-
-p {
-  padding-top: 15px;
 }
 
 * {
@@ -107,11 +106,8 @@ p {
 
 .hero {
   position: relative;
-  width: auto;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-
+  color: #e8e8e8;
+  margin-bottom: 6rem;
  }
 
 .hero_overlay {
@@ -152,7 +148,8 @@ p {
   justify-content: center;
   align-items: stretch;
   gap: 1rem;
-  height: 275px
+  height: 275px;
+  margin: 0 1rem 6rem;
 }
 
 .card {
@@ -167,12 +164,26 @@ p {
 }
 
 .card:hover {
-  font-size: 110%;
   color: var(--wool);
-  box-shadow: 2px 2px rgba(51, 51, 51, 0.432);
+  box-shadow: 3px 3px 4px rgba(51, 51, 51, 0.6);
   transition: box-shadow 100ms ease;
 }
 
+.card p {
+  transform: scale(.9);
+  font-size: 18px;
+  transition: transform 300ms;
+  line-height: 1;
+}
+
+/*.card:hover p {
+  transform: scale(1);
+}
+*/
+
+.text-content .button {
+  margin-top: 2rem;
+}
 
 
 /* ------------------------------------------ */
